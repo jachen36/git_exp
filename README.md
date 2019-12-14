@@ -25,8 +25,9 @@ This project is test out and record a process where I can mimic a team working o
 - [ ] One person do a PR and merge (make them constantly do git fetch and pull to get the latest show that it doesn't hurt and that you always is with the latest)
 - [ ] Everyone update their repo and rebase to the latest dev
 - [ ] Everyone submit their PR. Merge. (Show that your branch doesn't need to always be latest to merge)
-- [ ] Merge dev to master to 'release' the project. (never directly rebase to master) 
-
+- [ ] Merge dev to master to 'release' the project. (never directly rebase to master)[golden rule of rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing) "is anyone else looking at this branch? if yes, take yo
+- [ ] Do merge vs rebase
+- [ ] N
 
 ## Instructions 
 
