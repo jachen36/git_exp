@@ -27,7 +27,10 @@ This project is test out and record a process where I can mimic a team working o
 - [ ] Everyone submit their PR. Merge. (Show that your branch doesn't need to always be latest to merge)
 - [ ] Merge dev to master to 'release' the project. (never directly rebase to master)[golden rule of rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing) "is anyone else looking at this branch? if yes, take yo
 - [ ] Do merge vs rebase
-- [ ] N
+- [ ] After opening a PR, the boss as you to rebase to the latest which requires git push --force-with-lease
+- [ ] A merge conflict from rebasing with master which has a few features added. 
+- [ ] A separate example that will be deleted later to show using merge vs rebase when trying to get the latest from master. 
+- [ ] get a rebase error to see what happens. 
 
 ## Instructions 
 
