@@ -11,6 +11,7 @@ This project is test out and record a process where I can mimic a team working o
 - [ ] Linear commits (a few commits with images to pretend to be working on an already started project)
 - [ ] Download FORK to view repo's history or use git log
 - [ ] Add change to previous commit (git commit --amend)
+- [ ] made a small change but added file to the stage already
 - [ ] git clone (show how to download repo)
 - [ ] Show what checkout does 
 - [ ] Make a lot of files and changes to many files. Found out you don't want to changes. do git checkout HEAD
@@ -30,11 +31,20 @@ This project is test out and record a process where I can mimic a team working o
 - [ ] After opening a PR, the boss as you to rebase to the latest which requires git push --force-with-lease
 - [ ] A merge conflict from rebasing with master which has a few features added. 
 - [ ] A separate example that will be deleted later to show using merge vs rebase when trying to get the latest from master. 
-- [ ] get a rebase error to see what happens. 
+- [ ] get a rebase error to see what happens.
+- [ ] show how to use git stash (how to save changes temporary)
+- [ ] use git reset <file> when I don't want to add it anymore
 
 ## Instructions 
 
+Step 1: Create a bunch of logos 
+Objects: 
+	* git add -A -i = to show how to add and using interactive
+	* git add, git commit = example on how this is used 
+	* git checkout = show what this command does 
+	* git status = show how to 
 
+Make multiple commits by changing the logo image in the new `misc` folder. By using image, it is much easier to see what happens with the different commit and when checkout is used. Interactive git helps to see what gets added because `logo.png` is hidden in `misc`. 
 
 
 
