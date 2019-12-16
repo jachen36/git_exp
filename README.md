@@ -205,4 +205,8 @@ Directions
 4. Before they start, create a feature branch.
 	* never directly change the master
 	* if you mess up, not the best idea, but you can delete your folder and clone it again and start from there. proper way is to do `git reset --hard`
-	* `git checkout -b <feature_name>`
+	* `git checkout -b <feature_name>` = this creates and checkout your branch
+		* a branch is like a copy version from where you create it from
+	* `git status` = show what branch you are on
+	* `git branch` = show what branch are available on your computer
+	
