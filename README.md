@@ -9,7 +9,7 @@ This project is test out and record a process where I can mimic a team working o
 ## Common Situation 
 
 - [x] Linear commits (a few commits with images to pretend to be working on an already started project)
-- [ ] Download FORK to view repo's history or use git log
+- [X] Download FORK to view repo's history or use git log
 - [ ] Add change to previous commit (git commit --amend)
 - [ ] made a small change but added file to the stage already
 - [ ] git clone (show how to download repo)
@@ -39,9 +39,14 @@ This project is test out and record a process where I can mimic a team working o
 ## Instructions 
 
 pre-work
-* got to install git
-* an agenda. There will be periodic breaks for people to catch up and to ask random questions and time to digest the information. 
+* got to install git (and use git bash)
+* create a teams channel for the lecture so the instructor can easily send information to the group
+* an agenda. There will be periodic breaks for people to catch up and to ask random questions and time to digest the information. The information are extremely simplfied so there are things that are not best practice or lack details, but it is enough for you to get started. As you work together, you can learn as you go. 
+* It is really to help you get comfortable with command line and github. So when you go through the tutorial you have the confidence.  
 * I am a visual person, so the beginning is using images to learn the basics commands
+* Split everyone into a team of 4. 
+* `git config --global user.name <your name>`
+* `git config --global user.name <email address>`
 
 ### Step 1: Create a bunch of logos 
 Objects: 
@@ -54,6 +59,7 @@ Objects:
 Make multiple commits by changing the logo image in the new `misc` folder. By using image, it is much easier to see what happens with the different commit and when checkout is used. Interactive git helps to see what gets added because `logo.png` is hidden in `misc`. 
 
 Direction:
+
 1. Have everyone create their own local version first. 
 	* `mkdir git_exp`
 	* `cd git_exp`
@@ -105,7 +111,52 @@ d7b9978 Version 2 Logo
 
 ### Step 2: Review the commands but with github/remote
 
+Objective:
+	* to review the important commandas that was used previously. 
+	* allow people to use the commands from memory. try not to give people the answer
+	* allow people to get familiar with github (also let people know about bitbucket)
+	* instructor will have time to get started with the next part of the tutorial
+
+Directions
+
+1. Have everyone sign up with github using the format `first-last-company`
+	* Let people know about internal bitbucket which I personally would recommend more if not working with a specific team that requires github because of the data sensitivity
+2. Everyone should send their username and team to me so that the instructor can link them to repo for the team activity. 
+3. Setup a remote repo
+	* <img src="./misc/github_start1.png" alt="step1" width="150"/>
+	* <img src="./misc/github_start2.png" alt="step2" width="300"/>
+4. Clone repo to local
+	* `git clone <https url>`
+	* `cd <filename>`
+	* `git status`
+	* `git log`
+5. Repeat the previous lecture. Create 3 version logos in `misc` folder. help each other
+	* list of commands on a powerpoint slide people will need: `git add -A`, `git commt -m "<message>"`, `git status`, `git log --oneline`, `git checkout <hash# | master>` 
+6. Upload changes to github
+	* view repo on github to show remote doesn't know anything about your local changes. 
+	* `git log --online` = shows you have many changes
+	* `git push` = upload your work so everyone can see it. 
+7. Go into a few people's repo to show how to navigate github to find stuff. 
+	* look into the commit history
+	* look into the issues (maybe report some)
+	* explain pull request
+
+
+### Step 3: collabrating together
+
+Objectives: 
+	* to show 
 
 
 
+Here work as a team of 4 to create a news article. 
 
+Directions
+
+1. Add contributors to a project. 
+	* save just one team to demonstrate this
+2. Have people clone their team's repo
+3. Display the task for each member
+4. Before they start, create a feature branch.
+	* never directly change the master
+	* if you mess up, not the best idea, but you can delete your folder and clone it again and start from there. proper way is to do `git reset --hard`
