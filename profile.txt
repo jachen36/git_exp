@@ -1,0 +1,4 @@
+User 1
+The favorit git command is git add because he like to add things. What git add does it add modified stuff to blah blah blah
+
+
