@@ -1,3 +1,5 @@
 Commit 1. Create file `commands_1.txt`. Explain the purpose of `git status` 
 
 commit 2. blah blah git add is blah blah blah
+
+commit 3. yeah that is the last thing I need to add
