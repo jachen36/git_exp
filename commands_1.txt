@@ -1,0 +1,3 @@
+Commit 1. Create file `commands_1.txt`. Explain the purpose of `git status` 
+
+
