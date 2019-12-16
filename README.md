@@ -17,7 +17,7 @@ This project is test out and record a process where I can mimic a team working o
 - [x] Make a lot of files and changes to many files. Found out you don't want to changes. do git checkout HEAD
 - [ ] Someone make a change and git push and then pull (show how to get the latest version)
 - [x] Look into a file and make some test changes. Save the file. Decide you don't want it. git checkout filename
-- [ ] Make changes, commit, decided you want to remove that commit (git reset --soft HEAD)
+- [x] Make changes, commit, decided you want to remove that commit (git reset --soft HEAD)
 - [ ] Create master, dev branch (describe their purpose, rebase for dev, merge with master)
 - [ ] Multiple people create feature branch based on the dev branch
 - [ ] Everybody submit their imcomplete branch to remote
@@ -49,12 +49,12 @@ pre-work
 * `git config --global user.name <email address>`
 
 ### Step 1: Create a bunch of logos 
-Objects: 
-	* git add -A -i = to show how to add and using interactive
-	* git add, git commit = example on how this is used 
-	* git checkout = show what this command does 
-	* git status = show how to use
-	* git log = see history 
+Objects:   
+* git add -A -i = to show how to add and using interactive
+* git add, git commit = example on how this is used 
+* git checkout = show what this command does 
+* git status = show how to use
+* git log = see history 
 
 Make multiple commits by changing the logo image in the new `misc` folder. By using image, it is much easier to see what happens with the different commit and when checkout is used. Interactive git helps to see what gets added because `logo.png` is hidden in `misc`. 
 
@@ -94,6 +94,7 @@ Direction:
 		* because the new file is untracked, it doesn't know what to do with it. 
 		* delete the file
 		* git status to show your work station is clean. 
+	* `git reset --soft` = will reset the history but keep everything as modified
 	* `git checkout <any hash> && git checkout master` = go back to original state
 
 Side things to explain
@@ -132,11 +133,15 @@ Directions
 	* `git log`
 5. Repeat the previous lecture. Create 3 version logos in `misc` folder. help each other
 	* list of commands on a powerpoint slide people will need: `git add -A`, `git commt -m "<message>"`, `git status`, `git log --oneline`, `git checkout <hash# | master>` 
-6. Upload changes to github
+6. If finish early, add a text file, start changing it and keep doing add and commit. 
+	* whoever have the most ammount of commits win something as motivation. 
+	* `git log --oneline | wc -l`
+7. Upload changes to github
 	* view repo on github to show remote doesn't know anything about your local changes. 
 	* `git log --online` = shows you have many changes
-	* `git push` = upload your work so everyone can see it. 
-7. Go into a few people's repo to show how to navigate github to find stuff. 
+	* `git push` = upload your work so everyone can see it.
+	* while having github side by side with the terminal. show how it updates when you push. 
+8. Go into a few people's repo to show how to navigate github to find stuff. 
 	* look into the commit history
 	* look into the issues (maybe report some)
 	* explain pull request
@@ -144,12 +149,52 @@ Directions
 
 ### Step 3: collabrating together
 
-Objectives: 
-	* to show 
+Objectives:   
+* to show to work on things as a time. 
+* Make sure to have index.html in folder
+* display task and example results
+
+Tasks 
+
+__User 1: feature_logo__  
+Commit 1. Create a new logo name `team_logo.png`. Draw a git command and what it does. Text or pictures whatever you are comfortable with.   
+Commit 2. Update the image file  
+Commit 3. Third Revision and final one  
 
 
+__User 2: feature_profile__  
+Format:
+```
+Jacinto C
+One git command he likes is git add because it is simple. What it does is ...
 
-Here work as a team of 4 to create a news article. 
+User 2
+Blah blah blah. So he blah blah blah. 
+```
+Commit 1. Create a new file `profile.txt` and add your personal information.  
+Commit 2. Add teammate #2 in the same file.  
+Commit 3. Add teammate #3 in the same file.   
+Commit 4. Add teammate #4 in the same file.   
+
+__User 3: feature_command_1__  
+Format:
+```
+git add -A = blah blah blah
+git commit -m "[msg]" = blah blah blah
+```
+Commit 1. Create file `commands_1.txt`. Explain the purpose of `git status`  
+Commit 2. Explain the purpose of `git add`  
+Commit 3. Explain the purpose of `git commit`
+
+
+__User 4: feature_command_2__  
+Same as User 3  
+Commit 1. Create file `commands_2.txt`Explain the purpose of `git log`  
+Commit 2. Explain the purpose of `git checkout`  
+Commit 3. Explain the purpose of `git reset`
+
+
+Here work as a team of 4 to create a webpage. 
 
 Directions
 
@@ -160,3 +205,4 @@ Directions
 4. Before they start, create a feature branch.
 	* never directly change the master
 	* if you mess up, not the best idea, but you can delete your folder and clone it again and start from there. proper way is to do `git reset --hard`
+	* `git checkout -b <feature_name>`
