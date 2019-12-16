@@ -209,4 +209,18 @@ Directions
 		* a branch is like a copy version from where you create it from
 	* `git status` = show what branch you are on
 	* `git branch` = show what branch are available on your computer
+5. Check out index.html to check your work. Similar to coding, iterative process. 
+6. 
 	
+```bash
+$ git checkout -b feature_logo
+Switched to a new branch 'feature_logo'
+
+$ git status
+On branch feature_logo
+nothing to commit, working tree clean
+
+$ git branch -vv
+* feature_logo 35d2f81 slight change to step 3
+  master       35d2f81 [origin/master] slight change to step 3
+```
