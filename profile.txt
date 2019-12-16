@@ -3,3 +3,6 @@ The favorit git command is git add because he like to add things. What git add d
 
 User 2
 Favor it blah blah blah blah
+
+User 3
+Favorit is it now blah blah blah super blah
