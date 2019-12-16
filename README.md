@@ -34,7 +34,7 @@ This project is test out and record a process where I can mimic a team working o
 - [ ] get a rebase error to see what happens.
 - [ ] show how to use git stash (how to save changes temporary)
 - [x] use git reset <file> when I don't want to add it anymore or git reset to unadd everything
-- [ ] Figure out how to update all remote branch. Do you need to checkout each branch like master to do a git fetch?
+- [x] Figure out how to update all remote branch. Do you need to checkout each branch like master to do a git fetch? (no remote branches meta data are auto download during fetch)
 
 ## Instructions 
 
