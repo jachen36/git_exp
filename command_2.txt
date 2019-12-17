@@ -1,0 +1,1 @@
+Commit 1. Create file `commands_2.txt`Explain the purpose of `git log`  
