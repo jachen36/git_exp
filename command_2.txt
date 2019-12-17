@@ -1,0 +1,5 @@
+Commit 1. Create file `commands_2.txt`Explain the purpose of `git log` 
+
+Git checkouts is blah blah blah
+
+Git reset now that is come crazy stuff....
